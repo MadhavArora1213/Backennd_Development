@@ -1,0 +1,7 @@
+1. Node.js Basics
+2. Intro to node.js
+3. Installation Node.js and npm
+// npm initailization -->package.json --> lekha jokha of the project
+4. Working with modules
+5. File system operations
+6. understanding HTTP module

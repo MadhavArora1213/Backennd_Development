@@ -1,0 +1,16 @@
+# Node js is a js runtime environment
+
+# js se backend nhi ban sakta 
+kyuki js ke pass wo functionality nhi hai jinse backend banta hai 
+
+# v8 engine is written in c++ code.
+
+# then v8 engine wrapped with js code and if we write code in js it we give to wrapped js and then that is convert in c++ and run at v8 engine.
+
+# hum js ka code likhege jo ki wrapper layer of js receive karegi and wo code v8 engine ke c++ modules ke saath ek server create krega.
+
+# v8 + js warpper is called a nodejs.
+
+# jab tak node chl reha hai tab tak ham node se server create kr skte hai or it is just like jab tk generator chl reha hai tab tk uski energy use kr skte hai or jase he band hoga to we can't take energy.
+
+# callback is always a fuunction

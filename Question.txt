@@ -1,0 +1,83 @@
+What is V8 engine?
+
+    The V8 engine is an open-source JavaScript engine developed by Google
+    It's written in C++ and is used in Google Chrome and Node.js
+    It compiles JavaScript code directly into machine code before executing it, making JavaScript execution very fast
+    It handles memory allocation, garbage collection, and provides the data types, operators, objects, and functions of JavaScript
+
+
+What is a package?
+
+    A package is a collection of code modules, configuration files, and resources
+    It contains all files needed for a module to work properly
+    Usually includes a package.json file that describes the package
+    Can be published to and installed from npm (Node Package Manager)
+    May include dependencies on other packages
+    What is a module?
+    A module is a reusable block of code that encapsulates related code
+    It can be a single file or a directory with a package.json file
+    Can be built-in (like 'fs', 'http') or external (installed via npm)
+    Uses require() or import to be included in other files
+    Helps in organizing code and maintaining separation of concerns
+
+
+What is npm?
+
+    npm (Node Package Manager) is the default package manager for Node.js
+    World's largest software registry with over 1 million packages
+    Used to install, share, and manage dependencies in Node.js projects
+    Provides command-line tools for package management
+    Manages the package.json file which tracks project dependencies
+    Provides a global installation of npm packages
+    Used to install and manage global packages
+    Used to install and manage local packages
+
+why use v8 engine or not use other engines?
+
+    Why use V8 engine:
+
+    Performance
+    Highly optimized JIT (Just-In-Time) compilation
+    Advanced optimization techniques like inline caching
+    Efficient memory management with precise garbage collection
+    Fast startup time and runtime performance
+    Community & Support
+    Backed by Google with regular updates and improvements
+    Large developer community
+    Well-documented and extensively tested
+    Production-proven in Chrome and Node.js
+    Features
+    Supports latest ECMAScript standards
+    Excellent debugging capabilities
+    Built-in tools for profiling and optimization
+    Cross-platform compatibility
+    Other JavaScript Engines and Why They Might Not Be Preferred:
+
+    SpiderMonkey (Firefox)
+    Primarily designed for browser use
+    Less optimized for server-side applications
+    Smaller community for server-side development
+    More focused on Firefox-specific optimizations
+    JavaScriptCore (Safari/WebKit)
+    More tightly coupled with Apple's ecosystem
+    Less optimization for server-side scenarios
+    Smaller community compared to V8
+    Limited tools for server-side development
+    Chakra (Internet Explorer/Edge - Legacy)
+    Microsoft has moved to V8 for Edge
+    Limited modern feature support
+    Smaller ecosystem
+    Less active development
+    Nashorn (Java)
+    Deprecated in newer Java versions
+    Slower performance compared to V8
+    Limited modern JavaScript feature support
+    Requires Java runtime
+    V8 is preferred because it:
+
+    Offers the best balance of performance and features
+    Has proven reliability in production environments
+    Maintains active development and community support
+    Provides excellent tools for debugging and optimization
+    Has seamless integration with Node.js ecosystem
+    This is why Node.js chose V8 as its engine, and why it remains the preferred choice for server-side JavaScript execution.

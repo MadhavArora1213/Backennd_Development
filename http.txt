@@ -1,0 +1,7 @@
+protocol--> rules
+
+# internet par kuch bhi karne ke liye rules banaaye gaye hai  dwaara jinhone internet banaaya hai, ab un rules ko follow karna jaruri hai, aur ye rules follow ho isliye ye rules aap ke operating system ke softwore mein pre installed aate hai.
+
+#  http --> protocol
+
+# http is a request and response protocol on internet.

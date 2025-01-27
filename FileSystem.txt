@@ -1,0 +1,5 @@
+1. writefile --> means write in file
+2. appendfile --> means append text in exiting file
+3. copyfile --> means copy one file data to another file
+4. unlink --> means delete 
+5. rename --> rename the name of the file
