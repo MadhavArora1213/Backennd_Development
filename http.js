@@ -1,6 +1,5 @@
 const http = require('http');
 
-
 // create server and handle routing at backend
 const server = http.createServer((req, res) => {
     if(req.url === '/') {
@@ -16,7 +15,7 @@ const server = http.createServer((req, res) => {
     return res.end("404 Page Not Found");
 }); 
 
-const PORT = 5000; // port number whre server run
+const PORT = 5000; // port number where server run
 
 server.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
