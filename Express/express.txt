@@ -1,0 +1,7 @@
+1. Introduction to expressjs?
+
+# Express js ek npm package hai
+
+# it is a framework( framework ek flow hota hai like take example you have a day plan like wake up , take a bath ant all so this is a flow bt how to take bath like in river, shower or ct that is totally our choice).
+
+# Managing everything from receiving the request and giving thr response.

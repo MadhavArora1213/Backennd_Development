@@ -1,0 +1,13 @@
+1. Form Handling and working with forms.
+
+handle backend process of forms and making sure the data coming from any frontend library, framwork and template engines, we still handle it at backend.
+
+
+
+SESSION AND COOKIES
+
+hum log kuch bhi data frontend par browser  par rakh skte hai and jab bhi app kuch bhi request backend par karoge wo frontend par saved data automatically backend par chala  jaayega.                             
+
+login to logout is called session.
+
+string with data is cookies.
